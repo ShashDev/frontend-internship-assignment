@@ -5,21 +5,23 @@
   tw-justify-between
   tw-items-center
   tw-rounded-4-px
-  tw-p-12-px
-  tw-m-24-px;
+  tw-mt-5
+  tw-p-12-px;
+
   background: linear-gradient(146deg, #e1eeff 19.67%, #ffe4fb 127.56%);
 }
 
 .search-button {
   @apply
   tw-border 
+  tw-border-transparent
   tw-border-solid 
-  tw-border-dark-border
   tw-rounded-4-px
   tw-flex
   tw-justify-center
   tw-h-60-px
   tw-w-200-px
+  tw-mx-auto
 }
 
 .trending-subjects {
@@ -28,4 +30,10 @@
   tw-p-12-px
   tw-rounded-4-px
   tw-shadow-lg
+  tw-bg-violet-500
+  tw-h-screen
+}
+body{
+  @apply
+  tw-bg-slate-800
 }
